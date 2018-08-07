@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	background-color: #FAFAFA;	
+}
+
+.navbar-default {
+	background-color: #e83c38 !important;
+	border: none !important;
+}
+.navbar-nav li a{
+	color: white !important;
+}
+.navbar-nav li.active a{
+	background-color: #DE2C30 !important;
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	color: black;
+	padding-top: 30px;
+	background-color: #F8F8F8;
+}
+
+.dgom_menu_box_header {
+	background-color: #F8F8F8;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #E7E7E7;
+	border-bottom: 0;
+}
+
+.dgom_menu_box_content {
+	border: 1px solid #E7E7E7;
+}
+
+
+
+.errorMessage {
+	color: red;
+}
+
+.errorSummary {
+	background-color: rgba(249, 6, 53, 0.73);
+	color: white;
+	padding: 10px;
+}
+
+.site-logo{
+	max-height: 24px;
+}
+.nav-wrapper{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.content-wrapper{
+	padding-top: 50px;
+}
+
+.main-content-wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.margin-left-10px{
+	margin-left: -20px;
+}
+.summary {
+	text-align: left !important;
+	margin: 20px 0 !important;
+}
+h1 {
+	margin-top: 0px !important;
+}
+
+.sub-menu {
+	background-color: #DE2C30 !important;
+	border: none !important;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 0px !important;
+}
+
+.sub-menu-nav{
+	max-width: 1024px !important;
+	border: none !important;
+	color: white;
+	margin: 0 auto;
+}
+
+.sub-menu-nav ul{
+	margin: 0;
+	display: flex;
+	
+}
+
+.sub-menu-nav ul li a{
+	color: white;
+}
+.sub-menu-nav ul li a:hover{
+	background-color: #e83c38;
+}
+
+.grid{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+.item {
+	border-radius: 5px;
+	margin-bottom: 40px;
+	display: inline-block;
+	box-shadow: 0px 5px 7px -5px rgba(0,0,0,0.40);
+	width: 320px;
+	height: auto;
+	background-color: white;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+
+.card_campana {
+	margin: 0;
+	width: inherit;
+	height: auto;
+	position: relative;
+}
+
+.card_campana .client_logo{
+	width: inherit;
+	position: relative;
+	
+}
+.card_campana .client_logo div{
+	width: 100%;
+	height: 200px;
+	background-url:'';
+	background-position:center center;
+	background-size: cover; 
+}
+
+.card_campana .client_data{
+	background-color: transparent;
+	padding: 20px
+}
+
+
+footer{
+	display: none;
+}
+
+
+
+
