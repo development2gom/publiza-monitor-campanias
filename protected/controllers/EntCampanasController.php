@@ -161,7 +161,7 @@ class EntCampanasController extends Controller
 					
 					//Verifica si existe el directorio, si no lo crea
 					if(!file_exists ($imgPath)){
-						mkdir($imgPath, 0700, true);
+						mkdir($imgPath, 0777, true);
 					}
 					
 					
@@ -270,7 +270,7 @@ class EntCampanasController extends Controller
 						
 					//Verifica si existe el directorio, si no lo crea
 					if(!file_exists ($imgPath)){
-						mkdir($imgPath, 0700, true);
+						mkdir($imgPath, 0777, true);
 					}
 						
 						
@@ -460,7 +460,7 @@ class EntCampanasController extends Controller
 					
 				//Verifica si existe el directorio, si no lo crea
 				if(!file_exists ($filePath)){
-					mkdir($filePath, 0700, true);
+					mkdir($filePath, 0777, true);
 				}
 					
 					
@@ -510,7 +510,7 @@ class EntCampanasController extends Controller
 			
 				//Verifica si existe el directorio, si no lo crea
 				if(!file_exists ($imgPath)){
-					mkdir($imgPath, 0700, true);
+					mkdir($imgPath, 0777, true);
 				}
 			
 			

@@ -114,7 +114,7 @@ class ServicesController extends Controller
 			
 			//Verifica si existe el directorio, si no lo crea
 			if(!file_exists ($imgPath)){
-				mkdir($imgPath, 0700);
+				mkdir($imgPath, 0777);
 			}
 			
 			//almacena en el disco la imagen creada
