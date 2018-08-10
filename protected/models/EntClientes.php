@@ -39,7 +39,7 @@ class EntClientes extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('txt_nombre, txt_persona_contacto, txt_telefono, txt_mail, txt_url_logo', 'required'),
-			array('b_habilitado', 'numerical', 'integerOnly'=>true),
+			array('numerical', 'integerOnly'=>true),
 			array('txt_nombre, txt_url_logo, txt_persona_contacto, txt_telefono, txt_mail', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.

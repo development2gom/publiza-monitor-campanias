@@ -105,6 +105,7 @@ class EntUsuariosController extends Controller
 			if(empty($model->id_cliente)){
 				$model->id_cliente=null;
 			}
+			$model->b_habilitado =1;
 			
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id_usuario));

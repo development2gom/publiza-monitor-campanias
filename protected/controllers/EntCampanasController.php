@@ -261,7 +261,7 @@ class EntCampanasController extends Controller
 			
 			
 			$model->image=CUploadedFile::getInstance($model,'image');
-	
+			$model->b_habilitado =1;
 			if($model->save()){
 	
 				if(!empty($model->image)){

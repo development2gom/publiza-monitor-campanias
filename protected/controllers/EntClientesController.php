@@ -113,7 +113,7 @@ class EntClientesController extends Controller
 			
 			$model->image=CUploadedFile::getInstance($model,'image');
 			$model->txt_url_logo =  uniqid() . ".jpg";
-			
+			$model->b_habilitado =1;
 			if($model->save()){
 				$imgPath = Yii::app()->basePath . "/../images/clientes/";
 				//Verifica si existe el directorio, si no lo crea
